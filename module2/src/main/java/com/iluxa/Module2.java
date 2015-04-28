@@ -15,6 +15,8 @@ public class Module2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+
         ServletOutputStream out = resp.getOutputStream();
         out.write("hello, world2".getBytes());
         out.flush();

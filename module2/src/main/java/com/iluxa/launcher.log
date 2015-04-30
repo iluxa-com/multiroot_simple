@@ -19,6 +19,7 @@
 [2015-04-29 17:17:30,895]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start, --debug]
 [2015-04-29 17:17:30,896]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.6.309
 [2015-04-29 17:17:30,896]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider]
+1
 [2015-04-29 17:17:30,896]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource Analyzer config folder: E:\Upsource\Upsource_2.0.3113\conf\upsource-analyzer
 [2015-04-29 17:17:30,901]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/<Upsource Analyzer Home>/launcher/lib/launcher.jar!/launcher.java.config
 [2015-04-29 17:17:30,954]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\Upsource\Upsource_2.0.2984\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Analyzer Launcher, -Djl.home=E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\launcher.jar, Main, do, start, --debug] (at path: "E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer", system properties: {java.awt.headless=true})
@@ -29,6 +30,7 @@
 [2015-04-29 17:17:31,255]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.6.309
 [2015-04-29 17:17:31,255]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider]
 [2015-04-29 17:17:31,256]  DEBUG - rains.launcher.ep.commands.Run - Upsource Analyzer config folder: E:\Upsource\Upsource_2.0.3113\conf\upsource-analyzer
+ 2
 [2015-04-29 17:17:31,262]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/<Upsource Analyzer Home>/launcher/lib/launcher.jar!/launcher.java.config
 [2015-04-29 17:17:31,321]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Analyzer Home>\update
 [2015-04-29 17:17:31,327]   INFO - rains.launcher.ep.commands.Run - Starting Upsource Analyzer...
@@ -59,6 +61,7 @@
 [2015-04-29 17:21:00,480]   INFO - rains.launcher.run.AgentRunner - Launcher is exiting
 [2015-04-29 17:21:00,480]  TRACE -                           root - ================================================================ (finish)
 [2015-04-29 17:21:00,714]   INFO - ains.launcher.ep.commands.Stop - [stop] Upsource Analyzer has shut down
+  3
 [2015-04-29 17:21:00,714]  TRACE -                           root - [stop] ================================================================ (finish)
 [2015-04-29 17:21:19,934]  TRACE -                           root - [configure] ================================================================ (start)
 [2015-04-29 17:21:19,945]  DEBUG - launcher.ep.commands.Configure - [configure] Using Java: E:\Upsource\Upsource_2.0.2984\internal\java\windows-amd64\jre (version "1.8.0_40")
@@ -106,6 +109,7 @@
 [2015-04-29 17:25:17,594]  DEBUG - ains.launcher.ep.commands.Stop - [stop] Upsource Analyzer config folder: E:\Upsource\Upsource_2.0.3113\conf\upsource-analyzer
 [2015-04-29 17:25:17,594]  DEBUG - .BaseLauncherConfig$BaseParser - [stop] Using launcher configuration file: jar:file:/<Upsource Analyzer Home>/launcher/lib/launcher.jar!/launcher.java.config
 [2015-04-29 17:25:22,384]   INFO - ains.launcher.run.AgentProcess - Upsource Analyzer process finished
+   4
 [2015-04-29 17:25:22,400]  DEBUG - ins.launcher.util.LauncherUtil - Deleting E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer\upsource-analyzer.pid
 [2015-04-29 17:25:22,400]  DEBUG - ins.launcher.util.LauncherUtil - Deleting E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer\upsource-analyzer.port
 [2015-04-29 17:25:22,400]  DEBUG - ins.launcher.util.LauncherUtil - Deleting E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer\upsource-analyzer.exit.flag
@@ -173,3 +177,5 @@
 [2015-04-29 18:17:49,050]  DEBUG - ins.launcher.util.LauncherUtil - Deleting E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer\upsource-analyzer.port
 [2015-04-29 18:17:49,050]  DEBUG - ins.launcher.util.LauncherUtil - Deleting E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer\upsource-analyzer.exit.flag
 [2015-04-29 18:17:49,067]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource Analyzer process with command: [E:\Upsource\Upsource_2.0.2984\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource Analyzer, -Djl.home=E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=..\..\logs\upsource-analyzer, -Dfile.encoding=UTF-8, -Dupsource.properties.file=../upsource.user.properties,upsource.properties, -Xmx2000m, -XX:MaxMetaspaceSize=512m, -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=11155, -jar, launcher\lib\app-wrapper\app-wrapper.jar, AppStarter, com.jetbrains.upsource.backend.cli.UpsourceAnalyzerDaemon] (at path: "E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer", system properties: {launcher.app.lib.dir=../../lib/upsource, launcher.app.home=E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer, launcher.log.level=DEBUG, launcher.app.conf.dir=E:\Upsource\Upsource_2.0.3113\apps\upsource-analyzer\..\..\conf\upsource-analyzer, java.awt.headless=true, launcher.app.logs.dir=E:\Upsource\Upsource_2.0.3113\logs\upsource-analyzer})
+
+

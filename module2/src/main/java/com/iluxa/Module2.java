@@ -21,6 +21,7 @@ public class Module2 extends HttpServlet {
         out.write("hello, world2".getBytes());
         out.flush();
 	//comment in module2
+        //idea
         out.close();
     }
 

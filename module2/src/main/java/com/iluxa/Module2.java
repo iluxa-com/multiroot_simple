@@ -20,6 +20,7 @@ public class Module2 extends HttpServlet {
         ServletOutputStream out = resp.getOutputStream();
         out.write("hello, world2".getBytes());
         out.flush();
+	//comment in module2
         out.close();
     }
 

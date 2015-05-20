@@ -6,7 +6,6 @@
     <packaging>pom</packaging>
     <name>crazy</name>
     <modules>
-        <module>../module1/pom.xml</module>
-        <module>../module2/pom.xml</module>
+                <module>../module2/pom.xml</module>
     </modules>
 </project>
